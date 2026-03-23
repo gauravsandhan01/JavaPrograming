@@ -1,13 +1,13 @@
 public class datatype{
     public static void main(String [] args){
-        byte a=10;
-        short b=200;
-        int c =12;
-        long l=10000L;
-        float f=1.2f;
-        double d=12.234d;
-        char g = 'A';
-        boolean o= true;
+        byte a=10;          // 1 byte
+        short b=200;        // 2 byte
+        int c =12;          // 4 byte
+        long l=10000L;      // 8 byte
+        float f=1.2f;       // 4 byte
+        double d=12.234d;   // 8 byte
+        char g = 'A';       // 2 byte
+        boolean o= true;    // 1 bit
         // ALL Are the  Primative Datatype 
 
         System.out.println("1 byte :" + a);
